@@ -15,7 +15,7 @@ GibbonCms was created as a final assignment for my bachelor's degree in digital 
 Via Composer
 
 ``` bash
-$ composer require gibboncms/liana
+$ composer create-project gibboncms/liana <projectname>
 ```
 
 ## Usage
