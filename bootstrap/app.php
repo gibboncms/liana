@@ -27,7 +27,7 @@ $app->instance('liana', new GibbonCms\Gibbon\Modules\ModuleBag);
 ---------------------------------------------------------*/
 $app->instance(
     'liana.filesystem',
-    new GibbonCms\Gibbon\Filesystems\PlainFilesystem(realpath(__DIR__.'/../content'))
+    include 'filesystem.php'
 );
 
 
