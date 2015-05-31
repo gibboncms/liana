@@ -1,8 +1,0 @@
-<?php $__env->startSection('content'); ?>
-    <?php echo markdown(liana('blocks')->contents('home')); ?>
-
-    
-    <p>Hello world, welcome to <?php echo e(liana('settings')->get('site.name')); ?></p>
-<?php $__env->stopSection(); ?>
-
-<?php echo $__env->make('layouts.master', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

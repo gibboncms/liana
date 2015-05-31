@@ -1,7 +1,0 @@
-a:2:{s:11:"hello-world";O:20:"GibbonCms\Pages\Page":3:{s:5:"title";s:11:"Hello World";s:4:"body";s:32:"# Hello World
-
-Welcome to Liana
-";s:2:"id";s:11:"hello-world";}s:13:"subpages/test";O:20:"GibbonCms\Pages\Page":3:{s:5:"title";s:11:"Hello World";s:4:"body";s:32:"# Hello World
-
-Welcome to Liana
-";s:2:"id";s:13:"subpages/test";}}
