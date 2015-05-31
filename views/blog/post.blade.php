@@ -5,5 +5,5 @@
 @section('content')
     <h1>{{ $post->title }}</h1>
     <p>Posted on {{ $post->date->format('d-m-Y') }} by <em>{{ $post->data['author'] }}</em></p>
-    {!! $post->render() !!}
+    {!! markdown($post->body) !!}
 @stop

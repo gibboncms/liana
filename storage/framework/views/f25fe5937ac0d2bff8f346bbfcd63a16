@@ -3,7 +3,7 @@
 <?php $__env->startSection('content'); ?>
     <h1><?php echo e($post->title); ?></h1>
     <p>Posted on <?php echo e($post->date->format('d-m-Y')); ?> by <em><?php echo e($post->data['author']); ?></em></p>
-    <?php echo $post->render(); ?>
+    <?php echo markdown($post->body); ?>
 
 <?php $__env->stopSection(); ?>
 
