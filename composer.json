@@ -1,0 +1,21 @@
+{
+    "name": "gibboncms/liana",
+    "description": "Liana framework for Gibbon",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sebastian De Deyne",
+            "email": "sebastiandedeyne@gmail.com"
+        }
+    ],
+    "require": {
+        "gibboncms/liana-core": "dev-master",
+        "vlucas/phpdotenv": "^1.1",
+        "league/climate": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}

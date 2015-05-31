@@ -1,0 +1,21 @@
+#!/usr/bin/env php
+<?php
+
+/* Get the application
+---------------------------------------------------------*/
+$app = require_once __DIR__.'/../bootstrap/app.php';
+
+
+/* Add some color
+---------------------------------------------------------*/
+$cli = new League\CLImate\CLImate;
+
+
+/* Set up the modules
+---------------------------------------------------------*/
+$app->make('liana')->setUp();
+
+
+/* That's it!
+---------------------------------------------------------*/
+$cli->black()->backgroundGreen()->out('Liana build successfull!');

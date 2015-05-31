@@ -1,0 +1,4 @@
+a:1:{s:4:"home";O:22:"GibbonCms\Blocks\Block":3:{s:4:"body";s:63:"## Welcome to Liana
+
+Check out this cool $file[file](file.txt)
+";s:10:"attributes";a:0:{}s:2:"id";s:4:"home";}}
