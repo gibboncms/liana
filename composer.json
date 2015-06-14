@@ -9,7 +9,15 @@
         }
     ],
     "require": {
-        "gibboncms/liana-core": "^0.1",
+        "gibboncms/liana-core": "~0.1",
         "vlucas/phpdotenv": "^1.1"
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "cp -n .env.example .env 2>/dev/null || :"
+        ],
+        "post-create-project-cmd": [
+            "cp -n .env.example .env 2>/dev/null || :"
+        ]
     }
 }
