@@ -35,8 +35,8 @@ $app->instance(
 ---------------------------------------------------------*/
 $app->bind(
     'liana.cache',
-    function($app, $key) {
-        return new GibbonCms\Gibbon\Filesystems\FileCache(__DIR__.'/../storage/app/liana/'.$key);
+    function($app, $parameters) {
+        return new GibbonCms\Gibbon\Filesystems\FileCache(__DIR__.'/../storage/app/liana/'.$parameters['key']);
     }
 );
 
