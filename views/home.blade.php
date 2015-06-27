@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('content')
-    {!! markdown(liana('blocks')->contents('home')) !!}
+    @block('home')
     
-    <p>Hello world, welcome to {{ liana('settings')->get('site.name') }}</p>
+    <p>Hello world, welcome to @setting('site.name')</p>
 @stop

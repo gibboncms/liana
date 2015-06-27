@@ -48,9 +48,15 @@ $app->instance(
     new GibbonCms\Gibbon\Support\Markdown\Parser('/media')
 );
 
+
 /* Register gibbon modules
 ---------------------------------------------------------*/
 require_once 'modules.php';
+
+
+/* Register blade directives
+---------------------------------------------------------*/
+require_once 'blade.php';
 
 
 /* Register routes

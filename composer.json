@@ -9,7 +9,7 @@
         }
     ],
     "require": {
-        "gibboncms/liana-core": "~0.1",
+        "gibboncms/liana-core": "~0.2",
         "vlucas/phpdotenv": "^1.1"
     },
     "scripts": {
